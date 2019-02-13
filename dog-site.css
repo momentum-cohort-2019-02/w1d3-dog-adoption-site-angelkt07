@@ -1,1 +1,37 @@
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+* {
+    font-family: open sans, oswald;
+    margin: 0;
+    padding: 0;
+    box-sizing; border-box;
+}
+
+body {
+    padding: 1rem 2rem;789o
+}
+
+
+h1 {
+    background-color: #083D77;
+    color: #ffffff;
+    padding: 2rem   
+}
+
+section.dogs {
+
+}
+
+img.resize {
+    width: 390px;
+    height: 285px
+    padding: 1rem
+}
+
+figcaption {
+    padding: 2rem
+}
+
+.container {
+    display: inline;
+}
+
+
