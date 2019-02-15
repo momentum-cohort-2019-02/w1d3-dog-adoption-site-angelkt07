@@ -2,27 +2,226 @@
 <html>
 <meta http-equiv="X-UA-Compatible" content="IE=7">
 
-
-
 <head>
     <title>Happy Valley Shelter</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" href="dog-site.css">
 </head>
 
-<body>
+<header>
+    <h1>Happy Valley Shelter</h1>
+</header>
 
-    <header>
-        <h1>Happy Valley Shelter</h1>
-    </header>
+<body>
 
     <h2>Adopt a Dog</h2>
 
-    <p>If you are interested in adopting one of our animals, please fill out our <a href="">online adoption form.</a></p>
+    <p>If you are interested in adopting one of our animals, please fill out our <a href="DogForm.doc">online adoption form.</a></p>
 
-<section class="information" id=>
 
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio site used to view code on how to make the radio buttons work properly.-->
+<section class="adopt">    
+        <div class="filters">
+                <div class="menu">
+                    <li class="gender-list"><strong>Gender</strong></li>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <label for="male"> Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="female" name="gender" value="female" checked>
+                        <label for="female"> Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="all" name="gender" value="all" checked>
+                        <label for="all"> All</label>
+                    </div>
+                </div>
+                <div class="menu">
+                    <li class="age-list"><strong>Age</strong></li>
+                    <div class="age">
+                        <input type="radio" id="puppy" name="age" value="puppy" checked>
+                        <label for="puppy"> Puppy</label>
+                    </div>
+                    <div class="age">
+                        <input type="radio" id="young" name="age" value="young" checked>
+                        <label for="young"> Young</label>
+                    </div>
+                    <div class="age">
+                        <input type="radio" id="adult" name="age" value="adult" checked>
+                        <label for="adult"> Adult</label>
+                    </div>
+                    <div class="age">
+                        <input type="radio" id="senior" name="age" value="senior" checked>
+                        <label for="senior"> Senior</label>
+                    </div>
+                    <div class="age">
+                        <input type="radio" id="all" name="age" value="all" checked>
+                        <label for="all"> All</label>
+                    </div>
+                </div>
+                <div class="menu">
+                    <li class="size-list"><strong>Size</strong></li>
+                    <div class="size">
+                        <input type="checkbox" id="tiny" name="size" value="tiny">
+                        <label for="tiny"> Tiny</label>
+                    </div>
+                    <div class="size">
+                        <input type="checkbox" id="small" name="size" value="small">
+                        <label for="small"> Small</label>
+                    </div>
+                    <div class="size">
+                        <input type="checkbox" id="medium" name="size" value="medium">
+                        <label for="medium"> Medium</label>
+                    </div>
+                    <div class="size">
+                        <input type="checkbox" id="large" name="size" value="large">
+                        <label for="large"> Large</label>
+                    </div>
+                </div>
+                <div class="menu">
+                    <li class="traits-list"><strong>Personality Traits</strong></li>
+                    <div class="traits">
+                            <input type="checkbox" id="easygoing" name="traits" value="easygoing">
+                            <label for="easygoing"> Easy Going</label>
+                    </div>
+                    <div class="traits">
+                            <input type="checkbox" id="energetic" name="traits" value="energetic">
+                            <label for="energetic"> Energetic</label>
+                    </div>
+                    <div class="traits">
+                            <input type="checkbox" id="kids" name="traits" value="kids">
+                            <label for="kids"> Good with kids</label>
+                    </div>
+                    <div class="traits">
+                            <input type="checkbox" id="dogs" name="traits" value="dogs">
+                            <label for="dogs"> Good with other dogs</label>
+                    </div>
+                    <div class="traits">
+                            <input type="checkbox" id="cats" name="traits" value="cats">
+                            <label for="cats"> Good with cats</label>
+                    </div>
+                </div>
+        </div>
 </section>
+
+<section class="adoptees">
+    <div class="dog">
+        <div class="dogs beans">
+            <img class="dog-pic" src="starter_files/images/beans.jpg" alt="Beans" />
+            <h3>Beans</h3>
+            <div class="items">
+                <li class="item">Adult</li>
+                <li class="item">Male</li>
+                <li class="item">Medium</li>
+                <li class="item">Easygoing</li>
+                <li class="item">Good with cats</li>
+            </div>
+        </div>
+        <div class="dogs zelda">
+            <img class="dog-pic" src="starter_files/images/boston-terrier.jpg" alt="Zelda" />
+            <h3>Zelda</h3>
+            <div class="items">
+                <li class="item">Senior</li>
+                <li class="item">Female</li>
+                <li class="item">Large</li>
+                <li class="item">Easygoing</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+            </div>
+        </div>
+        <div class="dogs baby">
+            <img class="dog-pic" src="starter_files/images/boxer.jpg" alt="Baby" />
+            <h3>Baby</h3>
+            <div class="items">
+                <li class="item">Young</li>
+                <li class="item">Female</li>
+                <li class="item">Large</li>
+                <li class="item">Energetic</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+            </div>
+        </div>
+        <div class="dogs tom-tom">
+            <img class="dog-pic" src="starter_files/images/golden-lab.jpg" alt="Tom-Tom"/>
+            <h3>Tom-Tom</h3>
+            <div class="items">
+                <li class="item">Young</li>
+                <li class="item">Male</li>
+                <li class="item">Large</li>
+                <li class="item">Energetic</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+                <li class="item">Good with cats</li>
+            </div>
+        </div>
+        <div class="dogs marco">
+            <img class="dog-pic" src="starter_files/images/little-dog.jpg" alt="Marco"/>
+            <h3>Marco</h3>
+            <div class="items">
+                <li class="item">Adult</li>
+                <li class="item">Male</li>
+                <li class="item">Small</li>
+                <li class="item">Energetic</li>
+            </div>
+        </div>
+        <div class="dogs shackleton">
+            <img class="dog-pic" src="starter_files/images/old-shaggy.jpg" alt="Shackleton" />
+            <h3>Shackleton</h3>
+            <div class="items">
+                <li class="item">Adult</li>
+                <li class="item">Male</li>
+                <li class="item">Medium</li>
+                <li class="item">Easygoing</li>
+                <li class="item">Energetic</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+                <li class="item">Good with cats</li>
+            </div>
+        </div>
+        <div class="dogs midge">
+            <img class="dog-pic" src="starter_files/images/shih-tzu.jpg" alt="Midge" />
+            <h3>Midge</h3>
+            <div class="items">
+                <li class="item">Adult</li>
+                <li class="item">Female</li>
+                <li class="item">Small</li>
+                <li class="item">Easygoing</li>
+                <li class="item">Good with kids</li>
+            </div>
+        </div>
+        <div class="dogs Ladybird">
+            <img class="dog-pic" src="starter_files/images/young-bulldog.jpg" alt="Ladybird" />
+            <h3>Ladybird</h3>
+            <div class="items">
+                <li class="item">Young</li>
+                <li class="item">Female</li>
+                <li class="item">Large</li>
+                <li class="item">Easygoing</li>
+                <li class="item">Energetic</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+                <li class="item">Good with cats</li>
+            </div>
+        </div>
+        <div class="dogs mina">
+            <img class="dog-pic" src="starter_files/images/young-peppy.jpg" alt="Mina" />
+            <h3>Mina</h3>
+            <div class="items">
+                <li class="item">Puppy</li>
+                <li class="item">Female</li>
+                <li class="item">Medium</li>
+                <li class="item">Energetic</li>
+                <li class="item">Good with kids</li>
+                <li class="item">Good with other dogs</li>
+                <li class="item">Good with cats</li>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+</footer>
 
 </body>
 

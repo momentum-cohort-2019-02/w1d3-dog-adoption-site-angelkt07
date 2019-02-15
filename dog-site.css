@@ -1,15 +1,87 @@
-h1 {
+
+header {
     background-color: #083D77;
     color: #ffffff;
     font-family: open sans;
     padding: 2rem;
+    margin-right: 0;
 }
 
-h2, p {
+h1 {
+    font-weight: bold;
+}
+
+h2, p, section {
     margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem; 
 }
 
-section {
-    display: flexbox;
+h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: .5rem;
+}
+
+.filters {
+    background-color: #F0EDEE;  
+    margin-bottom: 1rem;    
+}
+
+.adopt > * {
+    display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-right: rem;
+    margin-bottom: 1rem;
+    padding: 2px;
+}
+
+.menu {
+    margin-right: 2rem;
+}
+
+li {
+    text-align: justify;
+    list-style-type: none;
+    margin: 0rem;
+}
+
+.adoptees > * {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.dog {
+    max-width: fit-content;
+}
+
+.dogs {
+    max-width: 33.3%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.dog-pic {
+    width: 95%;
+    height: auto;
+    align-content: space-between;
+    margin-top: 1px;
+}
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item {
+    padding: 4px;
+    background-color: #90ddf0;
+    border-radius: 45px;
+    margin: 2px;
+    font-size: 16px;
 }
