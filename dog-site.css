@@ -48,13 +48,12 @@ input {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    margin-right: rem;
     padding: 2px;
 }
 
 .menu {
-    margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 2rem;
 }
 
 li {
