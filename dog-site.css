@@ -2,7 +2,7 @@
 header {
     background-color: #083D77;
     color: #ffffff;
-    font-family: open sans;
+    font-family: 'Open Sans';
     padding: 2rem;
     margin-right: 0;
 }
@@ -11,16 +11,28 @@ h1 {
     font-weight: bold;
 }
 
-h2, p, section {
+h2, section {
     margin-left: 2rem;
     margin-bottom: 1rem;
     margin-right: 1.5rem; 
+}
+
+p.opening {
+    font-family: sans;
+    margin-left: 2rem;
+}
+
+p.filter {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 h3 {
     margin: 0;
     font-weight: bold;
     font-size: 18px;
+    font-family: oswald;
 }
 
 input {
@@ -28,16 +40,15 @@ input {
 }
 
 .filters {
-    background-color: #F0EDEE;  
     margin-bottom: 1rem;    
 }
 
 .adopt > * {
+    background-color: #F0EDEE;  
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     margin-right: rem;
-    margin-bottom: 1rem;
     padding: 2px;
 }
 
@@ -84,4 +95,46 @@ li {
     border-radius: 45px;
     margin: 2px;
     font-size: 16px;
+    font-family: open sans;
+    font-weight: normal;
+}
+
+.bottom {
+    max-width: 100%;
+}
+
+.background {
+    display: flex;
+    text-align: center;
+    color: white;
+    height: 200%; 
+    line-height: 350px;
+    font-size: 2rem;
+}
+
+.donate {
+    background: 
+    linear-gradient(rgba(167, 163, 242, 0.75), rgba(167, 163, 242, 0.75)),
+    URL("starter_files/images/donate.jpg") top center/cover;
+    width: 33.3%;
+    font-family: oswald;
+    font-size: 3rem;
+}
+
+.volunteer {
+    background: 
+    linear-gradient(rgba(167, 163, 242, 0.75), rgba(167, 163, 242, 0.75)),
+    URL("starter_files/images/volunteer.jpg") top center/cover;
+    width: 33.3%;
+    font-family: oswald;
+    font-size: 3rem;
+}
+
+.location {
+    background: 
+    linear-gradient(rgba(167, 163, 242, 0.75), rgba(167, 163, 242, 0.75)),
+    URL("starter_files/images/location.png") top center/cover;
+    width: 33.3%;
+    font-family: oswald;
+    font-size: 3rem;
 }
